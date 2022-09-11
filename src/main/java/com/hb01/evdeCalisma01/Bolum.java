@@ -11,7 +11,7 @@ public class Bolum {
 	@Column(name = "bolum_id")
 	private int bolumId;
 
-	@Column(name = "bolum_adi")
+	@Column(name = "bolum_adi",length=25)
 	private String bolumAdi;
 
 	public int getBolumId() {
